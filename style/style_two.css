@@ -1,0 +1,223 @@
+.mainblock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.mainblock_box {
+  width: 70.94%;
+  margin: 50px 5% 60px 7%;
+  background: #fff;
+  border-radius: 5px; }
+
+.mainblock_img {
+  margin-top: 50px; }
+
+.mainblock_box_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.mainblock_box_top_title {
+  font-size: 30px;
+  color: #b4100f;
+  margin: 40px 25.3% 55px 12%; }
+
+.mainblock_box_top_img {
+  width: 260px;
+  height: 100px;
+  margin-top: 23px;
+  margin-bottom: 5px; }
+
+.mainblock_box_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.mainblock_box_info_itom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 3.6%;
+  padding: 20px 0; }
+
+.mainblock_box_info_itom_icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 30px; }
+
+.mainblock_box_info_itom_icon_img {
+  width: 100%; }
+
+.mainblock_box_info_itom_text_top {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #747b82; }
+
+.mainblock_box_info_itom_socialnetworks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.mainblock_box_info_itom_socialnetworks_img {
+  padding-left: 20px;
+  width: 28px;
+  height: 28px; }
+
+.mainblock_box_info_itom_text_bottom_red {
+  color: #b4100f;
+  text-decoration: underline; }
+
+.mainblock_box_info_itom_text_bottom_right {
+  padding-left: 32px;
+  font-weight: bold; }
+
+.mainblock_title {
+  font-size: 30px;
+  margin: auto;
+  width: 70.94%;
+  margin: 0 5% 0 7%; }
+
+.mainblock_title_text {
+  text-align: center;
+  margin-bottom: 30px; }
+
+.nav_block_itom_two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.nav_block_itom_icon_two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  background: #b4100f;
+  margin: 0 30px 30px 0;
+  border-radius: 7px; }
+
+.nav_block_itom_two_marginbottom {
+  margin-bottom: 30px; }
+.info {
+  margin: auto;
+  width: 78%;
+    margin: 58px 5% 60px 0;
+}
+.info_block {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 60px;
+}
+.info_block_title {
+  text-transform: uppercase;
+  color: #b4100f;
+  font-size: 18px;
+  margin-right: 70px;
+  margin-top: 30px;
+
+}
+.info_block_text {
+  width: 530px;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+.info_block_text_wrap {
+  padding: 30px;
+}
+.info_block_text_p {
+  color: #3c393a;
+}
+.container_text {
+  width: 800px;
+  margin: auto;
+}
+.text_bottom_slider {
+  text-align: center;
+}
+.container_slaider {
+  width: 830px;
+  margin: auto;
+}
+.main_texttitle {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+.slider_block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.slider_block_box {
+  width: 230px;
+  height: 180px;
+-webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%); 
+-webkit-transform: rotate(0.000001deg); 
+-webkit-border-radius: 10px; 
+-moz-border-radius: 10px;
+border-radius: 10px; 
+overflow: hidden; }
+.slider_block_box_itom {
+  widows: 100%;
+  height: 100%;
+}
+.slider_block_marginBottom {
+  margin-bottom: 50px;
+}
+.reviewsANDnews {
+  display: flex;
+  align-items: center;
+}
+.reviewsANDnews_blocReviews_text {
+  color: #fff;
+  text-transform: uppercase;
+   background: #ffac14;
+    border-radius: 10px;
+    padding: 15px 40px 15px 30px;
+    position: relative;
+    color: #fff;
+    display: inline-block;
+    margin-right: 48px;
+}
+.reviewsANDnews_blocReviews_text::after {
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    left: 140px; bottom: -20px; /* Положение треугольника */
+    border: 10px solid transparent; /* Прозрачные границы */
+    border-top: 10px solid #ffac14; 
+}
+.reviewsANDnews_blockNews_text {
+  
+  text-transform: uppercase;
+  text-decoration: underline;  
+}
+.reviewsANDnews_blockNews_text a {
+  color: #3c393a;
+}
+.reviewsANDnews_sorting_text {
+  color: #3c393a;
+  font-size: 14px;
+  height: 150px;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+.reviewsANDnews_sorting_text_two {
+  color: #3c393a;
+  font-weight: bold;
+}
+.latest_reviews_block_box_inside_two {
+  width: 100%;
+}
