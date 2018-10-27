@@ -1,0 +1,148 @@
+.container {
+	position: relative;
+}
+.nav_tree {
+	height: 200px;
+	background: #f1cf47;
+}
+
+.containerMainTop_content {
+	width: 785px;
+	margin-top: 60px;
+	margin-left: 115px;
+}
+.containerMainTop_content_text {
+	font-size: 36px;
+	color: #3c393a;
+}
+.containerMainTop_content_reviewsANDnews {
+	color: #3c393a;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+.containerMainTop_content_reviewsANDnews_two {
+	color: #3c393a;
+    font-weight: bold;
+}
+.container_list {
+	width: 900px;
+	margin-bottom: 10px;
+}
+.container_list_block {
+	width: 100%;
+	height: 90px;
+	display: flex;
+	align-items: center;
+	border-radius: 5px;
+	background: #fff;
+	     box-shadow: 0 0 2px rgba(0,0,0,0.3);
+}
+.container_list_block_numbering {
+	position: relative;
+	width: 86px;
+}
+.container_list_block_numbering_number {
+	display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+.container_list_block_numbering_lenta {
+	position:  absolute
+}
+.container_list_block_logo {
+	width:  100px;
+}
+.container_list_block_logo_img {
+	width: 100%;
+}
+.container_list_block_title {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #3c393a;
+	width: 85px;
+}
+.container_list_block_icon {
+	display: flex;
+	justify-content: flex-end;
+	width: 200px;
+}
+.main_box_itom_block_icons_three {
+	padding:  0;
+	width: 130px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 50px;
+	align-items: flex-start;
+}
+.container_list_block_interestRate_wrap {
+	
+	line-height: 1.2;
+}
+.container_list_block_interestRate {
+	width: 100px;
+	position: relative;
+}
+.container_list_block_interestRate_text {
+	
+	display: flex;
+	justify-content: flex-end;
+	font-size: 11px;
+	color: #919195;
+}
+.container_list_block_interestRate_number {
+	display: flex;
+	justify-content: flex-end;
+	font-size: 14px;
+}
+.main_box_itom_block_icons_img {
+        margin-right: 3px;
+}
+.container_list_block_interestRate_text_wrap {
+	display: flex;
+	justify-content: flex-end;
+}
+.container_list_block_interestRate_top {
+	display: flex;
+}
+.container_list_block_interestRate_bottom {
+	display: flex;
+	align-items: center;
+}
+.container_list_block_interestRate_text_two {
+	display: flex;
+	flex-flow: column;
+}
+.container_list_block_wraper_container {
+	display: flex;
+	justify-content: space-between;
+}
+.container_list_block_wraper_icon {
+	width: 200px;
+}
+.container_list_block_wraper_icon_img {
+	width: 100%;
+}
+.pagesNext {
+	width: 900px;
+	display: flex;
+	justify-content: center;
+	margin: 50px 0;
+}
+.pagesNext_number {
+	padding: 1px 10px;
+	border-radius: 100%;
+	
+	font-size: 24px;
+
+}
+.pagesNext_number_two {
+	background: red;
+	color: #fff;
+}
+.bottomText {
+	width: 900px;
+	text-align: center;
+}
