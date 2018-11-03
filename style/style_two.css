@@ -582,4 +582,7 @@ overflow: hidden; }
   .form_block_itomRight_button {
     width: 100%;
   }
+  .mainblock_box_info_itom_icon_img {
+    width: 30px;
+  }
 }
